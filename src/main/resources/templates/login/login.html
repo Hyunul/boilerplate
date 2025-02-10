@@ -81,7 +81,7 @@
     </head>
     <body class="text-center">
         <main class="form-signin w-100 m-auto">
-            <form action="member/login/login" method="post">
+            <form action="/member/login/login" method="post">
                 <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
 
                 <div class="form-floating">
@@ -89,6 +89,7 @@
                         type="text"
                         class="form-control"
                         id="loginId"
+                        name="loginId"
                         placeholder="loginId"
                     />
                     <label for="floatingInput">Login Id</label>
@@ -98,6 +99,7 @@
                         type="password"
                         class="form-control"
                         id="password"
+                        name="password"
                         placeholder="Password"
                     />
                     <label for="floatingPassword">Password</label>
